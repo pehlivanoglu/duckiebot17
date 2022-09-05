@@ -1,0 +1,4 @@
+<launch>
+  <node name="joy_node" pkg="joy" type="joy_node" output="screen"/>
+  <node name="gamepad_teleop" pkg="duckiebot" type="gamepad_teleop.py" output="screen"/>
+</launch>
